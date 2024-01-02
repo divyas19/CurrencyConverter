@@ -1,0 +1,125 @@
+.parent-box {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 235, 241);
+  width: 100vw;
+  height: 100vh;
+}
+
+.heading {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 38px;
+  font-weight: 600;
+  color: rgb(115, 115, 132);
+}
+
+.display-info {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-display-info {
+  width: 60%;
+  height: 85%;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.sub-display-info > section {
+  height: 25%;
+  width: 100%;
+}
+
+.from-info,
+.to-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.from-info > div,
+.to-info > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.swap-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90%;
+}
+
+hr {
+  color: blue;
+  width: 90%;
+}
+
+.swap-button {
+  width: 10%;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding: 5px;
+}
+
+.swap-button > img {
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  border-radius: 50%;
+}
+
+.change-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  color: rgb(115, 115, 132);
+  color: rgb(98, 93, 93);
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 22px;
+}
+
+.exchange-rate {
+  height: 18vh;
+  width: 75%;
+  justify-self: flex-start;
+}
+
+.exchange-rate-content {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-display-info {
+    width: 80%;
+  }
+  .currency-label {
+    font-size: 17px;
+  }
+}

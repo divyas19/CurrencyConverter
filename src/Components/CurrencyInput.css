@@ -1,0 +1,42 @@
+.currency-label {
+  font-size: 20px;
+  color: rgb(116, 116, 116);
+}
+
+.amount-label {
+  font-size: 20px;
+  color: rgb(116, 116, 116);
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.currency-options {
+  width: 140px;
+  height: 36px;
+  font-size: 30px;
+  border: none;
+  color: rgb(115, 115, 132);
+  font-weight: 700;
+}
+
+.amount-value {
+  width: 98%;
+  height: 36px;
+  background-color: rgb(236, 240, 240);
+  border: none;
+}
+
+.amount-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  .amount-label {
+    text-align: left;
+    text-wrap: wrap;
+    font-size: 15px;
+  }
+}
